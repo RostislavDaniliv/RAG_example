@@ -56,7 +56,7 @@ def demonstrate_with_rag():
     
     questions = [
         "Скільки днів відпустки має співробітник у компанії?",
-        "Як працюють премії в компанії?"
+        "Як працюють премії в компанії GoWombat?"
     ]
     
     for question in questions:

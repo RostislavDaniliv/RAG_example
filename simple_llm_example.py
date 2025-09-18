@@ -6,11 +6,11 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 def demonstrate_without_rag():
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.9)
     
     questions = [
         "Скільки днів відпустки має співробітник у компанії?",
-        "Як працюють премії в компанії?"
+        "Як працюють премії в компанії GoWombat?"
     ]
     
     for question in questions:
